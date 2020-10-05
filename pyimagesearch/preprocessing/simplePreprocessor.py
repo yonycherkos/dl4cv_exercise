@@ -1,8 +1,7 @@
 import cv2
 
 class SimplePreprocessor():
-    def __init__(self, height, width, inter=cv2.INTER_AREA):
-        super().__init__()
+    def __init__(self, width, height, inter=cv2.INTER_AREA):
         self.height = height
         self.width = width
         self.inter = inter
