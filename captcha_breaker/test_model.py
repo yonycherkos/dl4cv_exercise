@@ -3,8 +3,8 @@ import sys
 sys.path.append("../")
 
 from pyimagesearch.utils.captchahelper import preprocess
-from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
 from imutils.contours import sort_contours
 from imutils import grab_contours
 from imutils import paths
